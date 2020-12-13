@@ -26,12 +26,14 @@ Follow along with [this repl](https://repl.it/@hfaerber/Bracket-vs-Dot-Notation-
 
 
 <details>
-<summary>When *can't* you use dot notation?  When do you need bracket notation?</summary>
-    - you don't have the exact text string of the key
-    - you are using a variable/parameter to represent the key
-    - the key is not a simple one-word string 
-      - key is a number
-      - key is multiple words with space(s) between
+<summary>When can't you use dot notation?  When do you need bracket notation? (Its the same question really)</summary>
+
+- you don't have the exact text string of the key
+- you are using a variable/parameter to represent the key
+- the key is not a simple one-word string 
+    - key is a number
+    - key is multiple words with space(s) between
+
 </details>
 
 ## Check for understanding
