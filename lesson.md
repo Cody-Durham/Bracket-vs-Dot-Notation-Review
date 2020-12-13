@@ -13,19 +13,20 @@
 - Parameters & Arguments:  essentially variables that are being declared and assigned directly in a function's declartion (parameter) and it's invocation (argument)
 
 ## Review the basics
-Follow along with [this repl](https://repl.it/@hfaerber/Bracket-vs-Dot-Notation-Review-Sample-Lesson) as we access some values.
 
 <details>
 <summary>Which property accessor (bracket or dot) would you consider your 'default'?  Why?</summary>
     - Dot notation: simple, clear way to access a value within an object when you know the exact text string of the key.  
-    - Bracket notation: used to access values in an object in more complex scenarios where the exact key may change or is represented by a variable
+    - Bracket notation: used to access values in an object in more complex scenarios where the exact key may change or is represented by a variable.  **JavaScript evaluates whatever is between the brackets before going to find the value its looking for.**
 </details>
+
+Follow along with [this repl](https://repl.it/@hfaerber/Bracket-vs-Dot-Notation-Review-Sample-Lesson) as we access some values.
+
 
 <details>
 <summary>When *can't* you use dot notation?  When do you need bracket notation?</summary>
     - you don't have the exact text string of the key
     - you are using a variable/parameter to represent the key
-        - JavaScript evaluates whatever is between the brackets before going to find that key's value
     - the key is not a simple one-word string 
       - key is a number
       - key is multiple words with space(s) between
