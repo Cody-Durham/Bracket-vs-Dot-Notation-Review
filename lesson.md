@@ -1,19 +1,18 @@
-Skip to content
+# Bracket vs Dot Notation Lesson
 
-Search…
-All gists
-Back to GitHub
-@hfaerber
-@hfaerber
-hfaerber/TSI notes draft Secret
-Last active 26 minutes ago
-0
-Code
-Revisions 2
+## Learning Objectives
+1. Access values from an object using bracket and dot notation
+2. Identify when to use bracket vs dot notation
+3. Leverage understanding of bracket and dot notation to refactor for DRYer code
 
-<script src="https://gist.github.com/hfaerber/ec2c8c67ad04a40f4d8c0d977c756dfa.js"></script>
+## Vocab and Tools
+- Object: a unit of related key-value pairs (properties).
+- [Property Accessors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors): tools used to access a value that lives as part of an object
+- [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys): a method that returns an object's keys in an array
+- [Array prototype method `find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find): a method that iterates over an array and returns the first element that meets the condition set in the method's callback function. 
 
-TSI notes draft
+### Notes
+
 Bracket and Dot notation makes a lot of sense initially.
 
 if you know the exact text/string key that you are trying to get the value for, you use dot notation
@@ -24,10 +23,6 @@ Anytime you can dot notation, you could use bracket instead. Sometimes, bracket 
 I remember this all making perfect sense during and even after the lesson at Turing, but getting messy and confusing later when I tried to implement it in more complex scenarios than the lesson covered. I understood it, but only in this silo. It was hard put it to use in real code.
 
 There is no top secret, unground info I can give you today about bracket vs dot notation. But what we can do today is look at some scenarios from project you may have done that give a chance to bring your existing knowledge and understanding a bit deeper by focusing on how we can leverage dot and bracket notation to refactor code to be cleaner, dryer and more efficient. Typically these refactoring opportunities may hand in hand with parameters and arguments. So we will quick review bracket and dot notation AND parameters and arguments then slow down a bit and work through some code examples together for bulk of this lesson.
-
-# Bracket vs Dot Notation Lesson
-
-### Notes
 
 Object - a group, unit, bundle, pile, collection of related key-value pairs (properties).
 Key - the name used to access that key's value. Like when you declare a variable and assigned it a value
