@@ -16,7 +16,7 @@
 
 <details>
 <summary>Which property accessor (bracket or dot) would you consider your 'default'?  Why?</summary>
-
+<br>
 - Dot notation: simple, clear way to access a value within an object when you know the exact text string of the key.  
 - Bracket notation: used to access values in an object in more complex scenarios where the exact key may change or is represented by a variable.  **JavaScript evaluates whatever is between the brackets before going to find the value its looking for.**
 
@@ -27,6 +27,7 @@ Follow along with [this repl](https://repl.it/@hfaerber/Bracket-vs-Dot-Notation-
 
 <details>
 <summary>When can't you use dot notation?  When do you need bracket notation? (Its the same question really)</summary>
+<br>
 
 - you don't have the exact text string of the key
 - you are using a variable/parameter to represent the key
