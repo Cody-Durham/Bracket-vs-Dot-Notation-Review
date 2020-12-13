@@ -6,7 +6,7 @@
 3. Leverage understanding of bracket and dot notation to refactor for DRYer code
 
 ## Vocab and Prerequisites
-- Object: a unit of related key-value pairs (properties).
+- Object: a grouping/unit of related key-value pairs (properties).
 - [Property Accessors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors): tools used to access a value that lives as part of an object
 - [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys): a method that returns an object's keys in an array
 - [Array prototype method `find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find): a method that iterates over an array and returns the first element that meets the condition set in the method's callback function. 
@@ -15,17 +15,19 @@
 ## Review the basics
 
 <details>
-<summary>Which property accessor (bracket or dot) would you consider your 'default'?  Why?</summary>
+<summary>Dot notation</summary>
 <br>
 
-- Dot notation: simple, clear way to access a value within an object when you know the exact text string of the key.  
-- Bracket notation: used to access values in an object in more complex scenarios where the exact key may change or is represented by a variable.  
-    - **JavaScript evaluates whatever is between the brackets before going to find the value its looking for.**
-
+- simple, clear way to access a value within an object when you know the exact text string of the key.  
 </details>
 
-Follow along with [this repl](https://repl.it/@hfaerber/Bracket-vs-Dot-Notation-Review-Sample-Lesson) as we access some values.
+<details>
+<summary>Bracket notation</summary>
+<br>
 
+- used to access values in an object in more complex scenarios where the exact key may change or is represented by a variable.  
+    - **JavaScript evaluates whatever is between the brackets before going to find the value its looking for.**
+</details>
 
 <details>
 <summary>When can't you use dot notation?  When do you need bracket notation? (Its the same question really)</summary>
@@ -39,6 +41,7 @@ Follow along with [this repl](https://repl.it/@hfaerber/Bracket-vs-Dot-Notation-
 
 </details>
 
+Follow along with [this repl](https://repl.it/@hfaerber/Bracket-vs-Dot-Notation-Review-Sample-Lesson) as we access some values.
 ## Check for understanding
 In your breakout rooms, go through each Learning Objective and explain what you've learned.  Note any remaining questions/confusion to discuss as the whole group
 

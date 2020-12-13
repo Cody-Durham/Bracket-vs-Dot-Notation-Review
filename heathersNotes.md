@@ -105,6 +105,9 @@ Parameters/Arguments
 [find() array prototype method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 [Object.keys() method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
 
+INTROs
+-students only : name, pronouns, module, which is their preference/default? bracket or dot notation
+
 
 Ask them to explain the diff.  
 Ask them to add to the chat when you mUST use bracket
