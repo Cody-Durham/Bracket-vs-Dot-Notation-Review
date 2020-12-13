@@ -104,3 +104,19 @@ Try it with dot first, will it work? get the error - why? fix with bracket notat
 Parameters/Arguments
 [find() array prototype method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 [Object.keys() method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+
+
+Ask them to explain the diff.  
+Ask them to add to the chat when you mUST use bracket
+
+When I go to the recipe REPL
+
+1. review the example
+- Why is public blue?
+- why is 100 green?
+- why are their quotes arond the nested object's keys? (console.log(recipe)to see that some are in quotes)
+
+2. For each thing, ask 
+- give me a thumbs up if you think it will work
+
+3. after recipe[name] fails, read the error, put quotes, say its gross, expplain that quotes within the brackets is a clue to use dot notation 

@@ -17,8 +17,10 @@
 <details>
 <summary>Which property accessor (bracket or dot) would you consider your 'default'?  Why?</summary>
 <br>
+
 - Dot notation: simple, clear way to access a value within an object when you know the exact text string of the key.  
-- Bracket notation: used to access values in an object in more complex scenarios where the exact key may change or is represented by a variable.  **JavaScript evaluates whatever is between the brackets before going to find the value its looking for.**
+- Bracket notation: used to access values in an object in more complex scenarios where the exact key may change or is represented by a variable.  
+    - **JavaScript evaluates whatever is between the brackets before going to find the value its looking for.**
 
 </details>
 
@@ -32,7 +34,7 @@ Follow along with [this repl](https://repl.it/@hfaerber/Bracket-vs-Dot-Notation-
 - you don't have the exact text string of the key
 - you are using a variable/parameter to represent the key
 - the key is not a simple one-word string 
-    - key is a number
+    - key is a number, [JS reserved word](https://www.edureka.co/blog/javascript-reserved-words/), symbol
     - key is multiple words with space(s) between
 
 </details>
