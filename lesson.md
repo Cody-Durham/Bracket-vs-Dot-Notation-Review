@@ -66,8 +66,8 @@ console.log(car[carDetail]);
 1. you don't have the exact text string of the key
 2. you are using a variable/parameter to represent the key
 3. the key is not a simple one-word string 
-    3a. key is a number, [JS reserved word](https://www.edureka.co/blog/javascript-reserved-words/), symbol
-    3b. key is multiple words with space(s) between
+  a. key is a number, [JS reserved word](https://www.edureka.co/blog/javascript-reserved-words/), symbol
+  b. key is multiple words with space(s) between
 
 </details>
 
