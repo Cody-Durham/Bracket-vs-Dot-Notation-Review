@@ -10,7 +10,7 @@
 - [Property Accessors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors): tools used to access a value that lives as part of an object
 - [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys): a method that returns an object's keys in an array
 - [Array prototype method `find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find): a method that iterates over an array and returns the first element that meets the condition set in the method's callback function. 
-- Parameters & Arguments:  essentially variables that are being declared and assigned directly in a function's declartion (parameter) and it's invocation (argument)
+- Parameters & Arguments:  essentially variables that are being declared and assigned directly in a function's declaration (parameter) and it's invocation (argument)
 
 ## Review the basics
 
@@ -19,6 +19,18 @@
 <br>
 
 - simple, clear way to access a value within an object when you know the exact text string of the key.  
+
+```var car = {
+    make: "Honda",
+    model: "Civic",
+    year: 2003,
+    color: "red"
+};
+
+console.log(car.color);
+// "red"
+```
+
 </details>
 
 <details>
@@ -27,6 +39,22 @@
 
 - used to access values in an object in more complex scenarios where the exact key may change or is represented by a variable.  
     - **JavaScript evaluates whatever is between the brackets before going to find the value its looking for.**
+
+```var car = {
+    make: "Honda",
+    model: "Civic",
+    year: 2003,
+    color: "red"
+};
+
+console.log(car["color"]);
+// "red"
+var carDetail = "color";
+
+console.log(car[carDetail]);
+// "red"
+```
+
 </details>
 
 <details>

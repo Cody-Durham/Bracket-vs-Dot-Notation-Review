@@ -39,16 +39,6 @@ var shelves = {
 			genre: "sciFi",
 		},
 		{
-			title: "Ender's Game",
-			mainCharacter: {
-				name: "Andrew 'Ender' Wiggin",
-				age: 10,
-				pronouns: "he/him",
-			},
-			pageCount: 324,
-			genre: "sciFi",
-		},
-		{
 			title: "The Robot Kitty",
 			mainCharacter: { name: "Coda", age: 15, pronouns: "he/him" },
 			pageCount: 201,
