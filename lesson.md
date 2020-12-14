@@ -20,7 +20,8 @@
 
 - simple, clear way to access a value within an object when you know the exact text string of the key.  
 
-```var car = {
+```
+var car = {
     make: "Honda",
     model: "Civic",
     year: 2003,
@@ -40,7 +41,8 @@ console.log(car.color);
 - used to access values in an object in more complex scenarios where the exact key may change or is represented by a variable.  
     - **JavaScript evaluates whatever is between the brackets before going to find the value its looking for.**
 
-```var car = {
+```
+var car = {
     make: "Honda",
     model: "Civic",
     year: 2003,
