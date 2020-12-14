@@ -38,7 +38,7 @@ console.log(car.color);
 <summary>Bracket notation</summary>
 <br>
 
-- used to access values in an object in more complex scenarios where the exact key may change or is represented by a variable.  
+- used to access values in an object in more complex scenarios like when the exact key may be represented by a variable instead of the exact text string of the key.  
     - **JavaScript evaluates whatever is between the brackets before going to find the value its looking for.**
 
 ```
