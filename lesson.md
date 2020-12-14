@@ -51,8 +51,8 @@ var car = {
 
 console.log(car["color"]);
 // "red"
-var carDetail = "color";
 
+var carDetail = "color";
 console.log(car[carDetail]);
 // "red"
 ```
@@ -60,7 +60,7 @@ console.log(car[carDetail]);
 </details>
 
 <details>
-<summary>When can't you use dot notation?  When do you need bracket notation? (Its the same question really)</summary>
+<summary>When can't you use dot notation and have to use bracket notation instead? </summary>
 <br>
 
 - you don't have the exact text string of the key
