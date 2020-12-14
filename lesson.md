@@ -63,11 +63,11 @@ console.log(car[carDetail]);
 <summary>When can't you use dot notation and have to use bracket notation instead? </summary>
 <br>
 
-- you don't have the exact text string of the key
-- you are using a variable/parameter to represent the key
-- the key is not a simple one-word string 
-    - key is a number, [JS reserved word](https://www.edureka.co/blog/javascript-reserved-words/), symbol
-    - key is multiple words with space(s) between
+1. you don't have the exact text string of the key
+2. you are using a variable/parameter to represent the key
+3. the key is not a simple one-word string 
+    3a. key is a number, [JS reserved word](https://www.edureka.co/blog/javascript-reserved-words/), symbol
+    3b. key is multiple words with space(s) between
 
 </details>
 
