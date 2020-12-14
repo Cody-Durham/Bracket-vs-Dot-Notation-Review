@@ -8,7 +8,7 @@
 ## Vocab and Prerequisites
 - Object: a grouping/unit of related key-value pairs (properties).
 - [Property Accessors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors): tools used to access a value that lives as part of an object
-- [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys): a method that returns an object's keys in an array
+- [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys): a method that returns an object's keys in an array.  Our secret weapon to be able to iterate over an *object*.
 - [Array prototype method `find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find): a method that iterates over an array and returns the first element that meets the condition set in the method's callback function. 
 - Parameters & Arguments:  essentially variables that are being declared and assigned directly in a function's declaration (parameter) and it's invocation (argument)
 
@@ -63,17 +63,17 @@ console.log(car[carDetail]);
 <summary>When can't you use dot notation and have to use bracket notation instead? </summary>
 <br>
 
-1. you don't have the exact text string of the key
-1. you are using a variable/parameter to represent the key
-1. the key is not a simple one-word string 
-    1. key is a number, [JS reserved word](https://www.edureka.co/blog/javascript-reserved-words/), symbol
-    1. key is multiple words with space(s) between
+1. You don't have the exact text string of the key
+1. You are using a variable/parameter to represent the key
+1. The key is not a simple one-word string 
+    1. Key is a number, [JS reserved word](https://www.edureka.co/blog/javascript-reserved-words/), symbol
+    1. Key is multiple words with space(s) between
 
 </details>
 
 Follow along with [this repl](https://repl.it/@hfaerber/Bracket-vs-Dot-Notation-Review-Sample-Lesson) as we access some values.
 ## Check for understanding
-In your breakout rooms, go through each Learning Objective and explain what you've learned.  Note any remaining questions/confusion to discuss as the whole group
+In your breakout rooms, go through each Learning Objective and explain what you've learned.  Post any remaining questions/confusion to the chat.
 
 
 ### Notes
