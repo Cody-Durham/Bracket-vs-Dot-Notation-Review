@@ -10,6 +10,9 @@
 2. Parameters & Arguments are essentially variables that you declare and assign directly in a function's declaration (parameter) and it's invocation (argument)
 
 ## Warm Up
+Use [this Jam Board](https://jamboard.google.com/d/1nEAvHoxvjDAw7wqQDA1D8AlJ1jS-7vZD8gUQAOT5lDY/edit?usp=sharing) to tell me everything you know about dot and bracket notations.
+
+List any questions/confusion you have on page 2.
 
 ## Review the basics
 
