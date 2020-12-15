@@ -74,4 +74,3 @@ console.log(car[carDetail]);
 ## Let's Party
 Follow along with [this repl](https://repl.it/@hfaerber/Bracket-vs-Dot-Notation-Review-Sample-Lesson) as we access some values.
 ## Check for understanding
-In your breakout rooms, go through each Learning Objective and explain what you've learned.  Post any remaining questions/confusion to the chat.
