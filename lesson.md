@@ -1,13 +1,15 @@
 # Bracket vs Dot Notation Lesson
 
 ## Learning Objectives
-1. Explain how JavaScript handles dot vs bracket notation
-2. Identify when to use bracket vs dot notation
+1. Identify when to use bracket vs dot notation to access values in an object
+2. Explain how JavaScript handles dot notation vs bracket notation
 3. Leverage your understanding of bracket & dot notation alongside other tools
 
 ## Other Tools
 1. [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys): a method that returns an object's keys in an array.  Our secret weapon to be able to iterate over an *object*.
 2. Parameters & Arguments are essentially variables that you declare and assign directly in a function's declaration (parameter) and it's invocation (argument)
+
+## Warm Up
 
 ## Review the basics
 
