@@ -1,16 +1,13 @@
 # Bracket vs Dot Notation Lesson
 
 ## Learning Objectives
-1. Access values from an object using bracket and dot notation
+1. Explain how JavaScript handles dot vs bracket notation
 2. Identify when to use bracket vs dot notation
-3. Leverage understanding of bracket and dot notation to refactor for DRYer code
+3. Leverage your understanding of bracket & dot notation alongside other tools
 
-## Vocab
-1. Object: a grouping/unit of related key-value pairs (properties).
-2. [Property Accessors - Bracket Notation & Dot Notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors): ways to access a value from an object
-3. [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys): a method that returns an object's keys in an array.  Our secret weapon to be able to iterate over an *object*.
-4. [Array prototype method `find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find): a method that iterates over an array and returns the first element that meets the condition set in `find()`'s callback function. 
-5. Parameters & Arguments:  essentially variables that are being declared and assigned directly in a function's declaration (parameter) and it's invocation (argument)
+## Other Tools
+1. [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys): a method that returns an object's keys in an array.  Our secret weapon to be able to iterate over an *object*.
+2. Parameters & Arguments are essentially variables that you declare and assign directly in a function's declaration (parameter) and it's invocation (argument)
 
 ## Review the basics
 
@@ -74,3 +71,6 @@ console.log(car[carDetail]);
 ## Let's Party
 Follow along with [this repl](https://repl.it/@hfaerber/Bracket-vs-Dot-Notation-Review-Sample-Lesson) as we access some values.
 ## Check for understanding
+
+## Documentation
+1. [Property Accessors - Bracket Notation & Dot Notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors): ways to access a value from an object
