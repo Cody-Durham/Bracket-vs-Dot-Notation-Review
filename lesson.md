@@ -7,12 +7,12 @@
 
 ## Other Tools
 1. [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys): a method that returns an object's keys in an array.  Our secret weapon to be able to iterate over an *object*.
-2. Parameters & Arguments are essentially variables that you declare and assign directly in a function's declaration (parameter) and it's invocation (argument)
+2. Parameters & Arguments: are essentially variables that you declare and assign directly in a function's declaration (parameter) and it's invocation (argument)
 
 ## Warm Up
 Use [this Jam Board](https://jamboard.google.com/d/1nEAvHoxvjDAw7wqQDA1D8AlJ1jS-7vZD8gUQAOT5lDY/edit?usp=sharing) to tell me everything you know about dot and bracket notations.
 
-List any questions/confusion you have on page 2.
+Use page 2 to note any questions/confusion you have.
 
 ## Review the basics
 
