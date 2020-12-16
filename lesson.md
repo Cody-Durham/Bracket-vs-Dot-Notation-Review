@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 1. Access values in an object using bracket and dot notation
-2. Identify when to use bracket vs dot notation to access values in an object
+2. Identify when to use bracket notation vs dot notation 
 3. Explain how JavaScript handles dot notation vs bracket notation
 
 ## Warm Up
@@ -70,13 +70,7 @@ console.log(car[carDetail]);
 </details>
 
 ## Let's Party
-Follow along with [this repl](https://repl.it/@hfaerber/Bracket-vs-Dot-Notation-Review-Sample-Lesson) as we access some values.
-## Check for understanding
+Join the party by forking [this repl](https://repl.it/@hfaerber/Bracket-vs-Dot-Notation-Review-Sample-Lesson)
 
 ## Documentation
-1. [Property Accessors - Bracket Notation & Dot Notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors): ways to access a value from an object
-
-## Other Tools
-1. [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys): a method that returns an object's keys in an array.  Our secret weapon to be able to iterate over an *object*.
-2. Parameters & Arguments: are essentially variables that you declare and assign directly in a function's declaration (parameter) and it's invocation (argument)
-3. Leverage your understanding of bracket & dot notation alongside other tools
+[Property Accessors - Bracket Notation & Dot Notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors): ways to access a value from an object
